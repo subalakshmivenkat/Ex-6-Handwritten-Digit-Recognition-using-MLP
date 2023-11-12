@@ -1,10 +1,10 @@
 # Skill Assisessment-Handwritten Digit Recognition using MLP
-## Aim:
-       To Recognize the Handwritten Digits using Multilayer perceptron.
+## AIM :
+To Recognize the Handwritten Digits using Multilayer perceptron.
 ##  EQUIPMENTS REQUIRED:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
-## Theory:
+## THEORY:
 Handwriting recognition is the ability of a computer to receive and interpret intelligible handwritten input from sources such as paper documents, photographs, touch-screens, and other devices. There are many techniques to that have been developed to recognize the handwriting. One of them is Handwritten Digit Recognition. In this project, we would be using Machine Learning classifier Multi-layer Perceptron Neural Network.
 
 An MLP is a supervised machine learning (ML) algorithm that belongs in the class of feedforward artificial neural networks. The algorithm essentially is trained on the data in order to learn a function. Given a set of features and a target variable (e.g. labels) it learns a non-linear function for either classification or regression.
@@ -13,18 +13,22 @@ MLP classifier is a very powerful neural network model that enables the learning
 
 It can be seen that the machine learning model can recognize the hand written digits. Though the accuracy is about 83% but still it can be increased by using Convolution Neural Network or Support Vector Machine classifier of machine learning with proper tuning.
 
-## Algorithm :
+## ALGORITHM:
 ## Step 1:
 Import the necessary libraries of python.
 ## Step 2:
 In the end_to_end function, first calculate the similarity between the inputs and the peaks. Then, to find w used the equation Aw= Y in matrix form. Each row of A (shape: (4, 2)) consists of
-index[0]: similarity of point with peak1 index[1]: similarity of point with peak2 index[2]: Bias input (1) Y: Output associated with the input (shape: (4, )) W is calculated using the same equation we use to solve linear regression using a closed solution (normal equation).
+index[0]: 
 ## Step 3:
-This part is the same as using a neural network architecture of 2-2-1, 2 node input (x1, x2) (input layer) 2 node (each for one peak) (hidden layer) 1 node output (output layer)
+Similarity of point with peak1 index[1]: similarity of point with peak2 index[2]: Bias input (1) Y: Output associated with the input (shape: (4, )) W is calculated using the same equation we use to solve linear regression using a closed solution (normal equation).
 ## Step 4:
+This part is the same as using a neural network architecture of 2-2-1, 2 node input (x1, x2) (input layer) 2 node (each for one peak) (hidden layer) 1 node output (output layer)
+## Step 5:
 To find the weights for the edges to the 1-output unit. Weights associated would be: edge joining 1st node (peak1 output) to the output node edge joining 2nd node (peak2 output) to the output node bias edge
+## Step 6:
+End the program
 
-## Program:
+## PROGRAM:
 ```
 import numpy as np
 import pandas as pd
@@ -127,16 +131,21 @@ def test_prediction(index, W1, b1, W2, b2):
     test_prediction(0, W1, b1, W2, b2)
 ```
 
-## Output :
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/f5c836c8-2360-4e60-8fdc-a7f3e6a05819)
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/63f7acf4-81f0-4c48-a33c-c51f3e7d458d)
+## OUTPUT:
+## Y-Train:
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/df8cd357-652b-41df-9cee-92e0d07ed78e)
+## Predictions:
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/c33540f5-4188-4292-8cdf-816764f084c0)
 
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/51beef25-5437-44ed-b6ee-e10ff2732229)
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/12c87bec-61a6-4fd4-a456-843fffaeec95)
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/092857df-5db9-41b0-9888-eca563333e72)
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/4f40316e-7d15-43a3-b7fc-43eeb70f7b72)
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/94a9474e-3b09-484e-a69c-523194db27e3)
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/79d9340f-f675-48b0-bc1a-467cb76ab883)
 
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/d8fece02-ba25-4d6e-b001-148b540b5f0f)
 
-## Result:
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/096e79ae-5b4e-4761-81d1-dde36ac84643)
+
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/02eca5aa-f71a-4c91-9631-b3ba649bbd8a)
+## Accuracy:
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/a1f8e838-8e68-4655-a53d-ead947a6c02c)
+
+## RESULT:
 Thus The Implementation of Handwritten Digit Recognition using MLP Is Executed Successfully.
