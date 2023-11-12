@@ -129,11 +129,13 @@ def test_prediction(index, W1, b1, W2, b2):
 
 ## Output :
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/f5c836c8-2360-4e60-8fdc-a7f3e6a05819)
-![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/386139ce-aaac-4c41-82d8-0c88ffbaba23)
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/63f7acf4-81f0-4c48-a33c-c51f3e7d458d)
+
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/51beef25-5437-44ed-b6ee-e10ff2732229)
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/12c87bec-61a6-4fd4-a456-843fffaeec95)
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/092857df-5db9-41b0-9888-eca563333e72)
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/4f40316e-7d15-43a3-b7fc-43eeb70f7b72)
+![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/94a9474e-3b09-484e-a69c-523194db27e3)
 
 
 ## Result:
