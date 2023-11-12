@@ -25,14 +25,13 @@ Similarity of point with peak1 index[1]: similarity of point with peak2 index[2]
 This part is the same as using a neural network architecture of 2-2-1, 2 node input (x1, x2) (input layer) 2 node (each for one peak) (hidden layer) 1 node output (output layer)
 ## Step 5:
 To find the weights for the edges to the 1-output unit. Weights associated would be: edge joining 1st node (peak1 output) to the output node edge joining 2nd node (peak2 output) to the output node bias edge
-## Step 6:
-End the program
 
 ## PROGRAM:
 ```
 import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
+
 data = pd.read_csv("train.csv")
 data = np.array(data)
 m, n = data.shape
@@ -47,6 +46,7 @@ X_train = data_train[1:n]
 X_train = X_train / 255.
 _,m_train = X_train.shape
 Y_train
+
 def init_params():
     W1 = np.random.rand(10, 784) - 0.5
     b1 = np.random.rand(10, 1) - 0.5
@@ -140,7 +140,7 @@ def test_prediction(index, W1, b1, W2, b2):
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/79d9340f-f675-48b0-bc1a-467cb76ab883)
 
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/d8fece02-ba25-4d6e-b001-148b540b5f0f)
-
+## Dev-Predictions:
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/096e79ae-5b4e-4761-81d1-dde36ac84643)
 
 ![image](https://github.com/subalakshmivenkat/Ex-6-Handwritten-Digit-Recognition-using-MLP/assets/119393477/02eca5aa-f71a-4c91-9631-b3ba649bbd8a)
